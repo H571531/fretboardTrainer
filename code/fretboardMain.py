@@ -45,6 +45,7 @@ def main():
         timeArray.append(timeUsed)
 
     print(f"You spent on average: {findAvg(timeArray):.1f} seconds")
+    input()
 
 
 if __name__ == '__main__':
